@@ -142,3 +142,16 @@ figcaption{
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
   }
+
+
+  .final-credit{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 0px auto 1em;
+    color: rgb(102, 102, 102);
+    margin: 0;
+  }
+  
