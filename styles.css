@@ -128,4 +128,17 @@ figcaption{
     grid-template-areas: 'date icons';
     grid-template-columns: 80% auto;
   }
-  
+  .icons{
+    min-width: 120px;
+  }
+
+
+
+  .article-body{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  }
