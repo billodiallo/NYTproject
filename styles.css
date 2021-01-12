@@ -155,3 +155,13 @@ figcaption{
     margin: 0;
   }
   
+
+  .eight-pics{
+    width: 80%;
+    margin: 0px auto;
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  }
+  
