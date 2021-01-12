@@ -2,3 +2,50 @@ body{
     margin: 0;
     color: #333;
 }
+
+.header{
+    display: grid;
+    
+}
+
+#profile{
+    display: none;
+  }
+
+  .header a{
+    text-decoration: none;
+    padding-top: 2px;
+  }
+  
+  .header .icon{
+    padding: 4% 0;
+  }
+  header a:hover{
+    text-decoration: underline;
+  }
+  .word{
+    grid-area: word;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14.25px;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+    color: black;
+  }
+  .menum{
+    grid-area: menu;
+  }
+  
+  .searchb{
+    grid-area: search;
+  }
+  
+  .logofo{
+    grid-area: logo;
+    margin: auto;
+  }
+  
+
+  
