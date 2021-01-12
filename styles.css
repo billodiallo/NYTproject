@@ -306,6 +306,10 @@ figcaption{
     margin-bottom: 8px;
     border-top: 1px solid rgb(226,226,226);
   }
+  .nav-subscribe{
+    border-left: 1px solid rgb(226,226,226);
+    padding-left: 15px;
+  }
   
   
   
