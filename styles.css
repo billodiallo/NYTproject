@@ -219,5 +219,14 @@ figcaption{
     background-color: black;
   }
   
+  .eight-pics-credit{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    margin: 0;
+  }
+  
   
   
