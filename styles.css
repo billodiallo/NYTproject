@@ -173,6 +173,16 @@ figcaption{
     font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
     color: rgb(102, 102, 102);
   }
+  .eight-pics-diagram{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }
+  
+  .pics{
+    width: 100%;
+    max-width: 250px;
+  }
   
   
   
