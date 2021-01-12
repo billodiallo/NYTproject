@@ -105,5 +105,9 @@ figcaption{
     line-height: 3rem;
     max-width: 700px;
   }
+  figure{
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
   
   
