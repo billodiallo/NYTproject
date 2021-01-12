@@ -65,5 +65,12 @@ body{
     letter-spacing: 0.05em;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
   }
+
+  .title{
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+  }
   
   
