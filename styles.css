@@ -49,5 +49,7 @@ body{
   .subscribe{
     grid-area: subscribe;
   }
-
+  .login{
+    grid-area: login;
+  }
   
