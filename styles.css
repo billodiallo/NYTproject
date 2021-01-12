@@ -76,5 +76,16 @@ body{
   .title-img{
     width: 100%;
   }
+
+  
+figcaption{
+    text-align: left;
+    color: #666;
+    margin-right: 20%;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+  
   
   
