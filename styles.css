@@ -328,6 +328,15 @@ figcaption{
     text-decoration: underline;
   }
   
+  .nav-footer-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin-bottom: 30px;
+    grid-gap: 10px;
+  }
+  
   
   
   
