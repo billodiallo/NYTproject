@@ -154,7 +154,7 @@ figcaption {
     font-weight: 900;
   }
   
-  .social-media{
+  .social-media {
     list-style: none;
     padding-inline-start: 0%;
     display: grid;
@@ -167,7 +167,7 @@ figcaption {
 
 
 
-  .article-body{
+  .article-body {
     width: 50%;
     margin: 50px auto;
     text-align: left;
