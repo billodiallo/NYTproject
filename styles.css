@@ -1,27 +1,25 @@
-.tp{
+.tp {
     position:fixed;
     top:0;
     background-color:white;
     width:100%;
     border-bottom:1px solid black;
-   
-    
 }
-.top-navb{
+.top-navb {
     display:flex;
     justify-content: space-evenly;
 }
-.tp  a{
+.tp  a {
     text-decoration:none;
     color:black;
 }
 
 
-.logo-centerbt{
+.logo-centerbt {
    display:inline-block;
 }
 
-.top-buttonbt a{
+.top-buttonbt a {
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     color:#fff;
@@ -33,29 +31,29 @@
 
 
 
-body{
+body {
     margin: 0;
     color: #333;
 }
 
-.header{
+.header { 
     display: grid;
     
 }
 
-#profile{
+#profile {
     display: none;
   }
 
-  .header a{
+  .header a {
     text-decoration: none;
     padding-top: 2px;
   }
   
-  .header .icon{
+  .header .icon {
     padding: 4% 0;
   }
-  header a:hover{
+  header a:hover {
     text-decoration: underline;
   }
   .aworld{
