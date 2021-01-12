@@ -372,30 +372,30 @@ figcaption {
   
   @media only screen and (max-width: 1024px) {
 
-    .header{
+    .header {
       display: grid;
       grid-template-areas: 'menu logo profile';
       grid-template-columns: 0.2fr 4fr 0.3fr;
     }
-    .subscribe{
+    .subscribe {
       display: none;
     }
-    .word{
+    .word {
       display: none;
     }
-    .search{
+    .search {
       display: none;
     }
-    .login{
+    .login {
       display: none;
     }
-    .header #profile{
+    .header #profile {
       grid-area: profile;
     }
-    .menu{
+    .menu {
       margin-top: 15%;
     }
-    #profile{
+    #profile {
       grid-area: profile;
       display: grid;
       margin-top: 20%;
