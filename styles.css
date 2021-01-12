@@ -1,21 +1,4 @@
 .tp {
-<<<<<<< HEAD
-  position: fixed;
-  top: 0;
-  background-color: white;
-  width: 100%;
-  border-bottom: 1px solid black;
-}
-
-.top-navb {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.tp a {
-  text-decoration: none;
-  color: black;
-=======
     position:fixed;
     top:0;
     background-color:white;
@@ -29,14 +12,12 @@
 .tp  a {
     text-decoration:none;
     color:black;
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
 }
 
 .logo-centerbt {
   display: inline-block;
 }
 
-<<<<<<< HEAD
 .top-buttonbt a {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -46,16 +27,6 @@
 body {
   margin: 0;
   color: #333;
-=======
-.logo-centerbt {
-   display:inline-block;
-}
-
-.top-buttonbt a {
-    background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(50, 104, 145);
-    color:#fff;
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
 }
 
 .header {
@@ -91,24 +62,6 @@ header a:hover {
   color: black;
 }
 
-<<<<<<< HEAD
-.menum {
-  grid-area: menu;
-}
-
-.searchb {
-  grid-area: search;
-}
-
-.logofo {
-  grid-area: logo;
-  margin: auto;
-}
-
-.subscribe {
-  grid-area: subscribe;
-}
-=======
 body {
     margin: 0;
     color: #333;
@@ -163,7 +116,6 @@ body {
   .login {
     grid-area: login;
   }
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
 
 .login {
   grid-area: login;
@@ -219,7 +171,7 @@ h2 {
   line-height: 3rem;
   max-width: 700px;
 }
-=======
+
   button {
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
@@ -297,7 +249,7 @@ figcaption {
   .icons{
     min-width: 120px;
   }
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
+
 
 figure {
   margin-inline-start: 0;
@@ -310,13 +262,12 @@ figure {
   text-align: left;
 }
 
-<<<<<<< HEAD
 .byWho {
   color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 900;
 }
-=======
+
   .article-body {
     width: 50%;
     margin: 50px auto;
@@ -325,7 +276,6 @@ figure {
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
   }
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
 
 .social-media {
   list-style: none;
@@ -335,7 +285,7 @@ figure {
   grid-template-columns: 80% auto;
 }
 
-<<<<<<< HEAD
+
 .icons {
   min-width: 120px;
 }
@@ -602,7 +552,7 @@ figure {
     padding-inline-end: 15%;
   }
   .nav-grid {
-=======
+
   .final-credit {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.75rem;
@@ -790,7 +740,7 @@ figure {
   .nav-footer-container {
     width: 90%;
     margin: auto;
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
+
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 30px;
@@ -799,9 +749,6 @@ figure {
   .nav-items-bold {
     padding-bottom: 5px;
   }
-<<<<<<< HEAD
-  .nav-footer-container {
-=======
   
   @media only screen and (max-width: 1024px) {
 
@@ -878,7 +825,6 @@ figure {
     }
   
     .nav-footer-container {
->>>>>>> 0c63b8ef3fb0d9b136d7b66bd116d311b4c9fea9
     grid-template-columns: auto auto auto;
   }
 }
