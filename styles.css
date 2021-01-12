@@ -401,7 +401,7 @@ figcaption {
       margin-top: 20%;
     }
   
-    .title h2{
+    .title h2 {
       width: 100%;
       margin: auto;
       font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -412,39 +412,39 @@ figcaption {
       max-width: 600px;
     }
   
-    .title figcaption{
+    .title figcaption {
       margin-left: 5%;
     }
   
-    .identity{
+    .identity {
       width: 90%;
     }
   
-    .article-body{
+    .article-body {
       width: 90%;
     }
   
-    .eight-pics-diagram{
+    .eight-pics-diagram {
       display: grid;
       grid-template-columns: auto auto;
       grid-gap: 20px;
     }
   
-    .social-media{
+    .social-media {
       padding-inline-end: 15%;
     }
-    .nav-grid{
+    .nav-grid {
       display: grid;
       grid-template-columns: auto auto auto;
       margin-top: 30px;
       grid-gap: 20px;
     }
   
-    .nav-items-bold{
+    .nav-items-bold {
       padding-bottom: 5px;
     }
   
-    .nav-footer-container{
+    .nav-footer-container {
     grid-template-columns: auto auto auto;
     }
   }
