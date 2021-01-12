@@ -56,7 +56,7 @@ body {
   header a:hover {
     text-decoration: underline;
   }
-  .aworld{
+  .aworld {
     grid-area: word;
     font-weight: 900;
     text-align: center;
@@ -67,27 +67,27 @@ body {
     line-height: 19px;
     color: black;
   }
-  .menum{
+  .menum {
     grid-area: menu;
   }
   
-  .searchb{
+  .searchb {
     grid-area: search;
   }
   
-  .logofo{
+  .logofo {
     grid-area: logo;
     margin: auto;
   }
-  .subscribe{
+  .subscribe {
     grid-area: subscribe;
   }
-  .login{
+  .login {
     grid-area: login;
   }
 
 
-  button{
+  button {
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     border-radius: 5px;
@@ -99,7 +99,7 @@ body {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
   }
 
-  .title{
+  .title {
     width: 100%;
     max-width: 1000px;
     margin: 50px auto;
