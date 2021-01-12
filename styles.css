@@ -106,12 +106,12 @@ body {
     text-align: center;
   }
 
-  .title-img{
+  .title-img {
     width: 100%;
   }
 
   
-figcaption{
+figcaption {
     text-align: left;
     color: #666;
     margin-right: 20%;
@@ -121,14 +121,14 @@ figcaption{
   }
   
 
-  .credit{
+  .credit {
     color: #888;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-size: 0.8125rem;
     line-height: 1.25rem;
   }
 
-  h2{
+  h2 {
     width: 50%;
     margin: auto;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -138,17 +138,17 @@ figcaption{
     line-height: 3rem;
     max-width: 700px;
   }
-  figure{
+  figure {
     margin-inline-start: 0;
     margin-inline-end: 0;
   }
-  .identity{
+  .identity {
     width: 50%;
     margin: 50px auto;
     text-align: left;
   }
   
-  .byWho{
+  .byWho {
     color: #333;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 900;
