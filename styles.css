@@ -337,6 +337,84 @@ figcaption{
     grid-gap: 10px;
   }
   
+  @media only screen and (max-width: 1024px) {
+
+    .header{
+      display: grid;
+      grid-template-areas: 'menu logo profile';
+      grid-template-columns: 0.2fr 4fr 0.3fr;
+    }
+    .subscribe{
+      display: none;
+    }
+    .word{
+      display: none;
+    }
+    .search{
+      display: none;
+    }
+    .login{
+      display: none;
+    }
+    .header #profile{
+      grid-area: profile;
+    }
+    .menu{
+      margin-top: 15%;
+    }
+    #profile{
+      grid-area: profile;
+      display: grid;
+      margin-top: 20%;
+    }
+  
+    .title h2{
+      width: 100%;
+      margin: auto;
+      font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 2rem;
+      line-height: 3rem;
+      max-width: 600px;
+    }
+  
+    .title figcaption{
+      margin-left: 5%;
+    }
+  
+    .identity{
+      width: 90%;
+    }
+  
+    .article-body{
+      width: 90%;
+    }
+  
+    .eight-pics-diagram{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 20px;
+    }
+  
+    .social-media{
+      padding-inline-end: 15%;
+    }
+    .nav-grid{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-top: 30px;
+      grid-gap: 20px;
+    }
+  
+    .nav-items-bold{
+      padding-bottom: 5px;
+    }
+  
+    .nav-footer-container{
+    grid-template-columns: auto auto auto;
+    }
+  }
   
   
   
