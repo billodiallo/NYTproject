@@ -184,5 +184,40 @@ figcaption{
     max-width: 250px;
   }
   
+  .eight-pics-diagram{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }
+  
+  .pics{
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .eight-pics-words{
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  
+  .eight-pics-words-bold{
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    padding-right: 5px;
+  }
+  
+  .eight-pics-footer::before{
+    width: 60px;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin: 0;
+    background-color: black;
+  }
+  
   
   
