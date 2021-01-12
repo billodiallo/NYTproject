@@ -1,3 +1,38 @@
+.tp{
+    position:fixed;
+    top:0;
+    background-color:white;
+    width:100%;
+    border-bottom:1px solid black;
+   
+    
+}
+.top-navb{
+    display:flex;
+    justify-content: space-evenly;
+}
+.tp  a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.logo-centerbt{
+   display:inline-block;
+}
+
+.top-buttonbt a{
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color:#fff;
+}
+
+
+
+
+
+
+
 body{
     margin: 0;
     color: #333;
@@ -306,7 +341,7 @@ figcaption{
     margin-bottom: 8px;
     border-top: 1px solid rgb(226,226,226);
   }
-  .nav-subscribe{
+  .nav-subscribe{ 
     border-left: 1px solid rgb(226,226,226);
     padding-left: 15px;
   }
