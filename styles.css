@@ -46,8 +46,8 @@ body{
     grid-area: logo;
     margin: auto;
   }
-  .search{
-    grid-area: search;
+  .subscribe{
+    grid-area: subscribe;
   }
 
   
