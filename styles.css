@@ -127,7 +127,7 @@ header a:hover {
   grid-area: login;
 }
 
-<<<<<<< HEAD button {
+ button {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 5px;
@@ -555,7 +555,7 @@ figure {
   .social-media {
     padding-inline-end: 15%;
   }
-  .nav-grid {
+  
     .final-credit {
       font-family: nyt-franklin, helvetica, arial, sans-serif;
       font-size: 0.75rem;
@@ -591,11 +591,7 @@ figure {
       width: 100%;
       max-width: 250px;
     }
-    .eight-pics-diagram {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-gap: 20px;
-    }
+    
     .pics {
       width: 100%;
       max-width: 250px;
@@ -796,3 +792,4 @@ figure {
         grid-template-columns: auto auto auto;
       }
     }
+  }
