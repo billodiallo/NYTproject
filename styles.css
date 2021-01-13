@@ -332,7 +332,7 @@ figure {
   color: rgb(102, 102, 102);
 }
 
-.eight-pics-diagram {
+.eight-pics-diags {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
@@ -343,7 +343,7 @@ figure {
   max-width: 250px;
 }
 
-.eight-pics-diagram {
+.eight-pics-diags {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
@@ -354,7 +354,7 @@ figure {
   max-width: 250px;
 }
 
-.eight-pics-words {
+.eight-pics-ddword {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 11px;
   line-height: 18px;
@@ -362,7 +362,7 @@ figure {
   color: #000000;
 }
 
-.eight-pics-words-bold {
+.eight-pics-ddword-bold {
   font-size: 11px;
   font-weight: bold;
   letter-spacing: .05em;
@@ -547,7 +547,7 @@ figure {
   .article-body {
     width: 90%;
   }
-  .eight-pics-diagram {
+  .eight-pics-diags {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
@@ -582,7 +582,7 @@ figure {
       font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
       color: rgb(102, 102, 102);
     }
-    .eight-pics-diagram {
+    .eight-pics-diags {
       display: grid;
       grid-template-columns: auto auto auto auto;
       grid-gap: 20px;
@@ -596,14 +596,14 @@ figure {
       width: 100%;
       max-width: 250px;
     }
-    .eight-pics-words {
+    .eight-pics-ddword {
       font-family: nyt-franklin, arial, helvetica, sans-serif;
       font-size: 11px;
       line-height: 18px;
       letter-spacing: 0.05em;
       color: #000000;
     }
-    .eight-pics-words-bold {
+    .eight-pics-ddword-bold {
       font-size: 11px;
       font-weight: bold;
       letter-spacing: .05em;
@@ -771,7 +771,7 @@ figure {
       .article-body {
         width: 90%;
       }
-      .eight-pics-diagram {
+      .eight-pics-diags {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 20px;
