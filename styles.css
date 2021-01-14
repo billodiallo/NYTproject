@@ -50,7 +50,6 @@
   font-weight: bolder;
 }
 
-
 .nav-items-lite a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
@@ -216,9 +215,8 @@ figure {
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: auto ;
+  margin: auto;
   color: rgb(102, 102, 102);
-  
 }
 
 .eight-pics {
@@ -341,10 +339,6 @@ figure {
   text-decoration: underline;
 }
 
-
-
-
-
 .top-divide {
   margin-top: 7px;
   margin-bottom: 8px;
@@ -361,8 +355,6 @@ figure {
   margin-top: 8px;
   padding-top: 9px;
 }
-
-
 
 .nav-footer a:hover {
   text-decoration: underline;
@@ -539,7 +531,6 @@ figure {
   .nav-items-bold a:hover {
     text-decoration: underline;
   }
- 
 
   .nav-items-lite a:hover {
     text-decoration: underline;
@@ -558,7 +549,7 @@ figure {
     margin-top: 8px;
     padding-top: 9px;
   }
-  
+
   .nav-footer a:hover {
     text-decoration: underline;
   }
