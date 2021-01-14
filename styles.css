@@ -728,17 +728,19 @@ figure {
     .login {
       display: none;
     }
+
+    #profile {
+      grid-area: profile;
+      display: grid;
+      margin-top: 20%;
+    }
     .header #profile {
       grid-area: profile;
     }
     .menu {
       margin-top: 15%;
     }
-    #profile {
-      grid-area: profile;
-      display: grid;
-      margin-top: 20%;
-    }
+   
     .title h2 {
       width: 100%;
       margin: auto;
@@ -768,7 +770,7 @@ figure {
     }
 
     iframe {
-      border:1px solid #000000;
+      border: 1px solid #000000;
     }
     .nav-grid {
       display: grid;
