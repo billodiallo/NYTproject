@@ -766,6 +766,10 @@ figure {
     .social-media {
       padding-inline-end: 15%;
     }
+
+    iframe {
+      border:1px solid #000000;
+    }
     .nav-grid {
       display: grid;
       grid-template-columns: auto auto auto;
