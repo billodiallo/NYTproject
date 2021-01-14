@@ -1,5 +1,7 @@
-Built By Mamadou Billo Diallo
+Built By : Mamadou Billo Diallo
+
 Description
+
 This is a replica of New York Times article about **Space Ripples Reveal Big Bang's Smoking Gun**.
 WEBSITE ORIGINAL  .
 
