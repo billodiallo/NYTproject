@@ -50,6 +50,24 @@
   font-weight: bolder;
 }
 
+
+.nav-items-lite a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.nav-footer-container a {
+  color: #666;
+  font-size: 70%;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
 header a:hover {
   text-decoration: underline;
 }
@@ -198,14 +216,14 @@ figure {
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 0px auto 1em;
+  margin: auto ;
   color: rgb(102, 102, 102);
-  margin: 0;
+  
 }
 
 .eight-pics {
   width: 50em;
-  margin: 0px auto;
+  margin: auto;
   text-align: left;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -237,7 +255,7 @@ figure {
   font-size: 11px;
   line-height: 18px;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: #000;
 }
 
 .eight-pics-ddword-bold {
@@ -299,24 +317,6 @@ figure {
   margin-bottom: 6px;
 }
 
-.nav-items-bold a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  color: rgb(51, 51, 51);
-  font-size: 15px;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-.nav-items a:hover {
-  text-decoration: underline;
-}
-
-.nav-items-bold a:hover {
-  text-decoration: underline;
-}
-
 .nav-items-lite a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
@@ -326,9 +326,24 @@ figure {
   text-decoration: none;
 }
 
-.nav-items-lite a:hover {
+.nav-footer-container a {
+  color: #666;
+  font-size: 70%;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+.nav-items a:hover {
   text-decoration: underline;
 }
+
+.nav-items-bold a:hover {
+  text-decoration: underline;
+}
+
+
+
+
 
 .top-divide {
   margin-top: 7px;
@@ -347,13 +362,7 @@ figure {
   padding-top: 9px;
 }
 
-.nav-footer-container a {
-  color: #666;
-  font-size: 70%;
-  white-space: nowrap;
-  text-decoration: none;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-}
+
 
 .nav-footer a:hover {
   text-decoration: underline;
@@ -530,14 +539,8 @@ figure {
   .nav-items-bold a:hover {
     text-decoration: underline;
   }
-  .nav-items-lite a {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    height: 25px;
-    line-height: 15px;
-    color: rgb(51, 51, 51);
-    font-size: 11px;
-    text-decoration: none;
-  }
+ 
+
   .nav-items-lite a:hover {
     text-decoration: underline;
   }
@@ -555,13 +558,7 @@ figure {
     margin-top: 8px;
     padding-top: 9px;
   }
-  .nav-footer-container a {
-    color: #666;
-    font-size: 70%;
-    white-space: nowrap;
-    text-decoration: none;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-  }
+  
   .nav-footer a:hover {
     text-decoration: underline;
   }
