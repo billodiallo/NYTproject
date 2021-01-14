@@ -297,11 +297,13 @@ figure {
   margin-bottom: 6px;
 }
 
-.nav-items-lite a .nav-items a:hover {
+.nav-footer a:hover {
   text-decoration: underline;
 }
-
 .nav-items-bold a:hover {
+  text-decoration: underline;
+}
+.nav-items-lite a .nav-items a:hover {
   text-decoration: underline;
 }
 
@@ -320,10 +322,6 @@ figure {
   border-top: 1px solid #ebebeb;
   margin-top: 8px;
   padding-top: 9px;
-}
-
-.nav-footer a:hover {
-  text-decoration: underline;
 }
 
 .nav-footer-container {
@@ -465,7 +463,9 @@ figure {
     line-height: 15px;
     color: rgb(51, 51, 51);
     font-size: 13px;
+    padding-bottom: 5px;
   }
+
   .nav-items {
     margin-bottom: 6px;
   }
@@ -480,9 +480,7 @@ figure {
   .nav-items a:hover {
     text-decoration: underline;
   }
-  .nav-items-bold a:hover {
-    text-decoration: underline;
-  }
+
   .nav-items-lite a:hover {
     text-decoration: underline;
   }
@@ -511,9 +509,7 @@ figure {
     margin-top: 30px;
     grid-gap: 20px;
   }
-  .nav-items-bold {
-    padding-bottom: 5px;
-  }
+
   @media only screen and (max-width: 1024px) {
     .header {
       display: grid;
