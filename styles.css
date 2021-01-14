@@ -50,15 +50,6 @@
   font-weight: bolder;
 }
 
-.nav-items-lite a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  color: rgb(51, 51, 51);
-  font-size: 11px;
-  text-decoration: none;
-}
-
 .nav-footer-container a {
   color: #666;
   font-size: 70%;
@@ -315,7 +306,7 @@ figure {
   margin-bottom: 6px;
 }
 
-.nav-items-lite a {
+ {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
@@ -323,15 +314,7 @@ figure {
   font-size: 11px;
   text-decoration: none;
 }
-
-.nav-footer-container a {
-  color: #666;
-  font-size: 70%;
-  white-space: nowrap;
-  text-decoration: none;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-}
-.nav-items a:hover {
+.nav-items-lite a .nav-items a:hover {
   text-decoration: underline;
 }
 
@@ -387,17 +370,19 @@ figure {
   .login {
     display: none;
   }
+  #profile {
+    grid-area: profile;
+    display: grid;
+    margin-top: 20%;
+  }
+
   .header #profile {
     grid-area: profile;
   }
   .menu {
     margin-top: 15%;
   }
-  #profile {
-    grid-area: profile;
-    display: grid;
-    margin-top: 20%;
-  }
+
   .title h2 {
     width: 100%;
     margin: auto;
@@ -417,11 +402,7 @@ figure {
   .article-body {
     width: 90%;
   }
-  .eight-pics-diags {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-  }
+
   .social-media {
     padding-inline-end: 15%;
   }
@@ -432,13 +413,12 @@ figure {
     line-height: 1rem;
     width: calc(100% - 40px);
     max-width: 600px;
-    margin: 0px auto 1em;
+    margin: auto;
     color: rgb(102, 102, 102);
-    margin: 0;
   }
   .eight-pics {
     width: 80%;
-    margin: 0px auto;
+    margin: auto;
     text-align: left;
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -452,18 +432,13 @@ figure {
     font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
     color: rgb(102, 102, 102);
   }
-  .eight-pics-diags {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-  }
 
   .eight-pics-ddword {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 11px;
     line-height: 18px;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: #000;
   }
   .eight-pics-ddword-bold {
     font-size: 11px;
@@ -588,9 +563,7 @@ figure {
       display: grid;
       margin-top: 20%;
     }
-    .header #profile {
-      grid-area: profile;
-    }
+
     .menu {
       margin-top: 15%;
     }
@@ -604,17 +577,13 @@ figure {
     .article-body {
       width: 90%;
     }
-    .eight-pics-diags {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-gap: 20px;
-    }
+
     .social-media {
       padding-inline-end: 15%;
     }
 
     iframe {
-      border: 1px solid #000000;
+      border: 1px solid #000;
     }
     .nav-grid {
       display: grid;
@@ -622,9 +591,7 @@ figure {
       margin-top: 30px;
       grid-gap: 20px;
     }
-    .nav-items-bold {
-      padding-bottom: 5px;
-    }
+
     .nav-footer-container {
       grid-template-columns: auto auto auto;
     }
