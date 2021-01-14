@@ -600,8 +600,7 @@ figure {
       grid-template-columns: auto auto auto;
       margin-top: 30px;
       grid-gap: 20px;
-    }
-     
+    }  
     .nav-footer-container {
       grid-template-columns: auto auto auto;
     }
