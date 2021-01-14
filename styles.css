@@ -336,7 +336,6 @@ figure {
 }
 
 @media only screen and (max-width: 1024px) {
-  
   .header {
     display: grid;
     grid-template-areas: "menu logo profile";
@@ -603,7 +602,6 @@ figure {
       margin-top: 30px;
       grid-gap: 20px;
     }
-    
     .nav-footer-container {
       grid-template-columns: auto auto auto;
     }
