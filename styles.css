@@ -26,7 +26,6 @@
   color: #fff;
 }
 
-
 .header a {
   text-decoration: none;
   padding-top: 2px;
@@ -61,14 +60,9 @@ body {
   display: none;
 }
 
-
-
-
-
 .header .icon {
   padding: 4% 0;
 }
-
 
 .menum {
   grid-area: menu;
@@ -90,8 +84,6 @@ body {
 .login {
   grid-area: login;
 }
-
-
 
 button {
   background-color: rgb(86, 123, 149);
@@ -125,8 +117,6 @@ figcaption {
   line-height: 1.25rem;
 }
 
-
-
 h2 {
   width: 50%;
   margin: auto;
@@ -138,8 +128,6 @@ h2 {
   max-width: 700px;
 }
 
-
-
 .title {
   width: 100%;
   max-width: 1000px;
@@ -147,18 +135,12 @@ h2 {
   text-align: center;
 }
 
-
-
-
-
 .credit {
   color: #888;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 0.8125rem;
   line-height: 1.25rem;
 }
-
-
 
 figure {
   margin-inline-start: 0;
@@ -189,12 +171,6 @@ figure {
   min-width: 120px;
 }
 
-
-
-
-
-
-
 .article-body {
   width: 50%;
   margin: 50px auto;
@@ -203,7 +179,6 @@ figure {
   line-height: 1.875rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
-
 
 .final-credit {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -655,8 +630,7 @@ figure {
     .menu {
       margin-top: 15%;
     }
-   
-    
+
     .title figcaption {
       margin-left: 5%;
     }
