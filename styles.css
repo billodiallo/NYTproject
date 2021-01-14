@@ -147,7 +147,6 @@ h2 {
   max-width: 700px;
 }
 
-
 .credit {
   color: #888;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
@@ -222,8 +221,6 @@ figure {
   color: rgb(102, 102, 102);
 }
 
-
-
 .pics {
   width: 100%;
   max-width: 250px;
@@ -234,8 +231,6 @@ figure {
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
 }
-
-
 
 .eight-pics-ddword {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -304,7 +299,6 @@ figure {
   margin-bottom: 6px;
 }
 
-
 .nav-items-bold a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
@@ -315,12 +309,9 @@ figure {
   font-weight: bolder;
 }
 
-
 .nav-items a:hover {
   text-decoration: underline;
 }
-
-
 
 .nav-items-bold a:hover {
   text-decoration: underline;
@@ -465,9 +456,7 @@ figure {
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
   }
- 
 
-  
   .eight-pics-ddword {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 11px;
@@ -537,7 +526,7 @@ figure {
   .nav-items a:hover {
     text-decoration: underline;
   }
-  
+
   .nav-items-bold a:hover {
     text-decoration: underline;
   }
