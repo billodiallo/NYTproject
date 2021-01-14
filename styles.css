@@ -31,6 +31,25 @@
   padding-top: 2px;
 }
 
+.nav-items a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-items-bold a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 25px;
+  line-height: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
 header a:hover {
   text-decoration: underline;
 }
@@ -128,12 +147,6 @@ h2 {
   max-width: 700px;
 }
 
-.title {
-  width: 100%;
-  max-width: 1000px;
-  margin: 50px auto;
-  text-align: center;
-}
 
 .credit {
   color: #888;
@@ -192,7 +205,7 @@ figure {
 }
 
 .eight-pics {
-  width: 80%;
+  width: 50em;
   margin: 0px auto;
   text-align: left;
   font-size: 1.25rem;
@@ -209,11 +222,7 @@ figure {
   color: rgb(102, 102, 102);
 }
 
-.eight-pics-diags {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 20px;
-}
+
 
 .pics {
   width: 100%;
@@ -226,10 +235,7 @@ figure {
   grid-gap: 20px;
 }
 
-.pics {
-  width: 100%;
-  max-width: 250px;
-}
+
 
 .eight-pics-ddword {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -252,7 +258,7 @@ figure {
   display: inline-block;
   height: 1px;
   margin: 0;
-  background-color: black;
+  background-color: #000;
 }
 
 .eight-pics-credit {
@@ -298,18 +304,6 @@ figure {
   margin-bottom: 6px;
 }
 
-.nav-items a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  text-decoration: none;
-}
-
-.nav-items a:hover {
-  text-decoration: underline;
-}
 
 .nav-items-bold a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -320,6 +314,13 @@ figure {
   text-decoration: none;
   font-weight: bolder;
 }
+
+
+.nav-items a:hover {
+  text-decoration: underline;
+}
+
+
 
 .nav-items-bold a:hover {
   text-decoration: underline;
@@ -464,15 +465,9 @@ figure {
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
   }
-  .pics {
-    width: 100%;
-    max-width: 250px;
-  }
+ 
 
-  .pics {
-    width: 100%;
-    max-width: 250px;
-  }
+  
   .eight-pics-ddword {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 11px;
@@ -542,15 +537,7 @@ figure {
   .nav-items a:hover {
     text-decoration: underline;
   }
-  .nav-items-bold a {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    height: 25px;
-    line-height: 15px;
-    color: rgb(51, 51, 51);
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bolder;
-  }
+  
   .nav-items-bold a:hover {
     text-decoration: underline;
   }
