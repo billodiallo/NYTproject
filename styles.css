@@ -607,3 +607,38 @@ figure {
     }
   }
 }
+
+.form{
+  border-radius: 15px;
+  background-color:#f1f1f1;
+  margin: 20px auto;
+  padding:25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  width:60%;
+}
+
+.form input{
+  padding:10px;
+  margin:5px;
+  border-radius: 25px;
+  border: 1px solid blue;
+}
+
+.btn-form{
+  margin: 10px auto;
+  width:60%;
+  padding:10px;
+  border-radius: 25px;
+  background-color:rgb(50, 104, 145);
+  color:#fff;
+  border: 1px solid gray;
+}
+
+.form textarea{
+  text-emphasis: center;
+  border-radius: 15px;
+  border:1px solid blue;
+}
