@@ -300,9 +300,11 @@ figure {
 .nav-footer a:hover {
   text-decoration: underline;
 }
+
 .nav-items-bold a:hover {
   text-decoration: underline;
 }
+
 .nav-items-lite a .nav-items a:hover {
   text-decoration: underline;
 }
@@ -334,34 +336,43 @@ figure {
 }
 
 @media only screen and (max-width: 1024px) {
+  
   .header {
     display: grid;
     grid-template-areas: "menu logo profile";
     grid-template-columns: 0.2fr 4fr 0.3fr;
   }
+
   .subscribe {
     display: none;
   }
+
   .word {
     display: none;
   }
+
   .search {
     display: none;
   }
+
   .login {
     display: none;
   }
+
   #profile {
     grid-area: profile;
     display: grid;
     margin-top: 20%;
   }
+
   .header #profile {
     grid-area: profile;
   }
+
   .menu {
     margin-top: 15%;
   }
+
   .title h2 {
     width: 100%;
     margin: auto;
@@ -372,18 +383,23 @@ figure {
     line-height: 3rem;
     max-width: 600px;
   }
+
   .title figcaption {
     margin-left: 5%;
   }
+
   .identity {
     width: 90%;
   }
+
   .article-body {
     width: 90%;
   }
+
   .social-media {
     padding-inline-end: 15%;
   }
+
   .final-credit {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.75rem;
@@ -393,6 +409,7 @@ figure {
     margin: auto;
     color: rgb(102, 102, 102);
   }
+
   .eight-pics {
     width: 80%;
     margin: auto;
@@ -401,6 +418,7 @@ figure {
     line-height: 1.875rem;
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
   }
+
   .summary-text {
     font-size: 0.875rem;
     line-height: 1.125rem;
@@ -409,6 +427,7 @@ figure {
     font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
     color: rgb(102, 102, 102);
   }
+
   .eight-pics-ddword {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 11px;
@@ -416,12 +435,14 @@ figure {
     letter-spacing: 0.05em;
     color: #000;
   }
+
   .eight-pics-ddword-bold {
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 0.05em;
     padding-right: 5px;
   }
+
   .eight-pics-footer::before {
     width: 60px;
     content: "";
@@ -430,6 +451,7 @@ figure {
     margin: 0;
     background-color: black;
   }
+
   .eight-pics-credit {
     font-size: 0.875rem;
     line-height: 1.125rem;
@@ -438,10 +460,12 @@ figure {
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     margin: 0;
   }
+
   .main-nav {
     width: 90%;
     margin: auto;
   }
+
   .main-nav::before {
     background-color: #fff;
     border-bottom: 1px solid #e2e2e2;
@@ -451,11 +475,13 @@ figure {
     height: 1px;
     margin-top: 0;
   }
+
   .nav-grid {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     margin-top: 30px;
   }
+
   .nav-items-bold {
     font-weight: bolder;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -469,6 +495,7 @@ figure {
   .nav-items {
     margin-bottom: 6px;
   }
+
   .nav-items a {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     height: 25px;
@@ -477,6 +504,7 @@ figure {
     font-size: 13px;
     text-decoration: none;
   }
+
   .nav-items a:hover {
     text-decoration: underline;
   }
@@ -484,23 +512,28 @@ figure {
   .nav-items-lite a:hover {
     text-decoration: underline;
   }
+
   .top-divide {
     margin-top: 7px;
     margin-bottom: 8px;
     border-top: 1px solid rgb(226, 226, 226);
   }
+
   .nav-subscribe {
     border-left: 1px solid rgb(226, 226, 226);
     padding-left: 15px;
   }
+
   .nav-footer {
     border-top: 1px solid #ebebeb;
     margin-top: 8px;
     padding-top: 9px;
   }
+
   .nav-footer a:hover {
     text-decoration: underline;
   }
+
   .nav-footer-container {
     width: 90%;
     margin: auto;
@@ -511,52 +544,66 @@ figure {
   }
 
   @media only screen and (max-width: 1024px) {
+
     .header {
       display: grid;
       grid-template-areas: "menu logo profile";
       grid-template-columns: 0.2fr 4fr 0.3fr;
     }
+
     .subscribe {
       display: none;
     }
+
     .word {
       display: none;
     }
+
     .search {
       display: none;
     }
+
     .login {
       display: none;
     }
+
     #profile {
       grid-area: profile;
       display: grid;
       margin-top: 20%;
     }
+
     .menu {
       margin-top: 15%;
     }
+
     .title figcaption {
       margin-left: 5%;
     }
+
     .identity {
       width: 90%;
     }
+
     .article-body {
       width: 90%;
     }
+
     .social-media {
       padding-inline-end: 15%;
     }
+
     iframe {
       border: 1px solid #000;
     }
+
     .nav-grid {
       display: grid;
       grid-template-columns: auto auto auto;
       margin-top: 30px;
       grid-gap: 20px;
     }
+    
     .nav-footer-container {
       grid-template-columns: auto auto auto;
     }
