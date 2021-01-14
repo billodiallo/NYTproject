@@ -26,13 +26,10 @@
   color: #fff;
 }
 
+
 .header a {
   text-decoration: none;
   padding-top: 2px;
-}
-
-.header .icon {
-  padding: 4% 0;
 }
 
 header a:hover {
@@ -64,30 +61,14 @@ body {
   display: none;
 }
 
-.header a {
-  text-decoration: none;
-  padding-top: 2px;
-}
 
-.header a:hover {
-  text-decoration: underline;
-}
+
+
 
 .header .icon {
   padding: 4% 0;
 }
 
-.aworld {
-  grid-area: word;
-  font-weight: 900;
-  text-align: center;
-  padding-top: 3px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 14.25px;
-  letter-spacing: 0.1px;
-  line-height: 19px;
-  color: black;
-}
 
 .menum {
   grid-area: menu;
@@ -110,9 +91,7 @@ body {
   grid-area: login;
 }
 
-.login {
-  grid-area: login;
-}
+
 
 button {
   background-color: rgb(86, 123, 149);
@@ -146,12 +125,7 @@ figcaption {
   line-height: 1.25rem;
 }
 
-.credit {
-  color: #888;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 0.8125rem;
-  line-height: 1.25rem;
-}
+
 
 h2 {
   width: 50%;
@@ -164,17 +138,7 @@ h2 {
   max-width: 700px;
 }
 
-button {
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  border-radius: 5px;
-  color: rgb(255, 255, 255);
-  font-size: 11px;
-  line-height: 11px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-}
+
 
 .title {
   width: 100%;
@@ -183,18 +147,9 @@ button {
   text-align: center;
 }
 
-.title-img {
-  width: 100%;
-}
 
-figcaption {
-  text-align: left;
-  color: #666;
-  margin-right: 20%;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-}
+
+
 
 .credit {
   color: #888;
@@ -203,16 +158,7 @@ figcaption {
   line-height: 1.25rem;
 }
 
-h2 {
-  width: 50%;
-  margin: auto;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  max-width: 700px;
-}
+
 
 figure {
   margin-inline-start: 0;
@@ -243,22 +189,11 @@ figure {
   min-width: 120px;
 }
 
-figure {
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
 
-.identity {
-  width: 50%;
-  margin: 50px auto;
-  text-align: left;
-}
 
-.byWho {
-  color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 900;
-}
+
+
+
 
 .article-body {
   width: 50%;
@@ -269,26 +204,6 @@ figure {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-.social-media {
-  list-style: none;
-  padding-inline-start: 0%;
-  display: grid;
-  grid-template-areas: "date icons";
-  grid-template-columns: 80% auto;
-}
-
-.icons {
-  min-width: 120px;
-}
-
-.article-body {
-  width: 50%;
-  margin: 50px auto;
-  text-align: left;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
-}
 
 .final-credit {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -741,16 +656,7 @@ figure {
       margin-top: 15%;
     }
    
-    .title h2 {
-      width: 100%;
-      margin: auto;
-      font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-      font-weight: 500;
-      font-style: italic;
-      font-size: 2rem;
-      line-height: 3rem;
-      max-width: 600px;
-    }
+    
     .title figcaption {
       margin-left: 5%;
     }
