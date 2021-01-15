@@ -7,6 +7,12 @@ The requirements of this project consists of making a clone of a New York Times 
 - The box model
 
 
+New York Times article page
+
+![screenshoot](https://user-images.githubusercontent.com/11162987/104711856-eeb8c580-5732-11eb-9a2a-abc0f846c7a2.PNG)
+
+
+
 Additional description about the project and its features.
 
 Built With Technologies Html css
