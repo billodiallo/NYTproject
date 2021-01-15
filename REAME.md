@@ -18,18 +18,16 @@ Additional description about the project and its features.
 Built With Technologies Html css
 
 👤 Author1
-
-. GitHub:@billodiallo
-.Twitter:@BilloDi83547008
-.Linkedin:mabillodiallo
+ GitHub:@billodiallo
+ Twitter:@BilloDi83547008
+ Linkedin:mabillodiallo
 
 Live version:billodiallo.github.io/nytproject/
 
 👤 Author2
-
-.GitHub:@ashraffares
-.Twitter:@Fares09301164
-.Linkedin:fares-ashraf-382a35176/
+GitHub:@ashraffares
+Twitter:@Fares09301164
+Linkedin:fares-ashraf-382a35176/
 
 
 
