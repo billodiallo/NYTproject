@@ -12,9 +12,8 @@ iframe {
 
 .top-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: -160px;
 }
 
 .header-img {
@@ -51,7 +50,7 @@ nav a {
 
 .top-button {
   margin-top: 12px;
-  margin-right: -160px;
+  margin-right: 20px;
 }
 
 .top-button a {
