@@ -4,6 +4,7 @@
   background-color: white;
   width: 100%;
   border-bottom: 1px solid black;
+  margin-top: 20px;
 }
 
 .top-navb {
@@ -24,6 +25,7 @@
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   color: #fff;
+  margin: 12px;
 }
 
 .header a {
