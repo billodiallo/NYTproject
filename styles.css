@@ -118,6 +118,11 @@ main {
   text-align: left;
 }
 
+.inflation {
+  width: 85%;
+  margin: auto;
+}
+
 .grid-header {
   text-align: left;
   font-size: 14px;
@@ -142,6 +147,7 @@ main {
 
 .grid img {
   width: 200px;
+  height: 150px;
 }
 
 .flex-2 {
@@ -151,6 +157,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.hrlarry {
+  width: 10%;
+  border-top: 1px solid lightgray;
+  margin-left: -82px;
+}
+
+.larrytext {
+  font-size: 14px;
+  margin-left: -85px;
 }
 
 .flex-2-video {
@@ -245,21 +262,22 @@ main {
 
 .footer-logo {
   width: 260px;
-  margin-left: 120px;
+  margin-left: 37px;
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
+  margin: auto;
 }
 
 .copyright {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin: 20px auto;
   font-size: 12px;
   width: 80%;
 }
