@@ -10,7 +10,8 @@ The requirements of this project consists of making a clone of a New York Times 
 New York Times article page
 
 
-![screenshoot3](https://user-images.githubusercontent.com/11162987/104814007-9e6a6200-581d-11eb-8059-1c7708fa404f.PNG)
+![screnshoot4](https://user-images.githubusercontent.com/11162987/104836078-3fa7f580-58bc-11eb-8cf3-991c3ac0e532.PNG)
+
 
 
 
