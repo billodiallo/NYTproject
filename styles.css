@@ -8,6 +8,7 @@ nav {
 
 iframe {
   border: 1px solid black;
+  margin: auto;
 }
 
 .top-nav {
@@ -73,6 +74,14 @@ header {
 .gun {
   width: 60%;
   margin-left: 180px;
+}
+
+.hh1 {
+  margin: 0;
+}
+
+.sgh {
+  border-bottom: 1px solid lightgray;
 }
 
 header div {
@@ -151,8 +160,9 @@ main {
 }
 
 .flex-2-video span {
-  font-size: 18px;
+  font-size: 15px;
   color: #808080;
+  margin-left: 70px;
 }
 
 .comments-share {
@@ -188,8 +198,7 @@ main {
 
 .footer-links a {
   padding: 5px;
-  font-size: 14px;
-  line-height: 1.624;
+  font-size: 16px;
   display: block;
   text-decoration: none;
   color: #666;
@@ -236,25 +245,30 @@ main {
 
 .footer-logo {
   width: 260px;
+  margin-left: 120px;
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
 
 .copyright {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 30px;
   font-size: 12px;
+  width: 80%;
+  margin: auto;
 }
 
 .artical-grid {
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 65% 25%;
   margin: 0 40px;
 }
 
