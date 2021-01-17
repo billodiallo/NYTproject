@@ -18,10 +18,6 @@ New York Times article page
 Additional description about the project and its features.
 
 Built With Technologies Html css
-## Live Demo
-
-[Live Demo Link](billodiallo.github.io/nytproject/)
-
 
 
 👤 Author1
