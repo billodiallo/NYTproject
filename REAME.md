@@ -1,1 +1,0 @@
-this article from the New York Times clone
